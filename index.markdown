@@ -1,4 +1,8 @@
-#  ☁️ Cloud Security Web App Challenge: Secure-Pass-Sentinel 🔐
+---
+layout: default
+---
+
+# ☁️ Cloud Security Web App Challenge: Secure-Pass-Sentinel 🔐
 
 ## Project Overview 📂
 This cloud challenge focuses on enhancing and deploying "Secure-Pass-Sentinel", a password strength checker web application, using serverless cloud technologies. Participants will improve the existing application and deploy it on either Google Cloud Platform (GCP) using Cloud Run or Amazon Web Services (AWS) using Lambda and API Gateway.
@@ -12,6 +16,7 @@ Enhance the Secure-Pass-Sentinel application and deploy it as a serverless web a
 3. **CI/CD Integration**: Integrate GitHub Actions (or similar tool) to automatically deploy updates to your cloud environment when you push to your repository.
 
 ## Cloud Provider Requirements
+
 ### GCP Requirements:
 - **Compute Engine** or **Cloud Run**: Host the web application.
 - **Cloud Storage**: Store the common_passwords.txt file (if needed).
@@ -26,45 +31,39 @@ Enhance the Secure-Pass-Sentinel application and deploy it as a serverless web a
 
 ## Getting Started 🚀
 
-The Challenge supports AWS and GCP cloud providers:
-
-| Cloud    | Challenge |
-| --------------------- | ------- |
-| [AWS](https://jqcvsc.github.io/Cloud-Security-Web-App-Challenge/)| [x]   |
-| [GCP](https://jqcvsc.github.io/Cloud-Security-Web-App-Challenge/)| [x]   |
-
 ### Step 1: Clone the Repository
+
 ```bash
-git clone https://github.com/JQCVSC/Secure-Pass-Sentinel.git
+Git Clone https://github.com/JQCVSC/Secure-Pass-Sentinel
 cd Secure-Pass-Sentinel
 ```
 ### Step 2: Set Up Locally
 ```bash
 pip install -r requirements.txt
+
 python main.py
 ```
+### Step 3: Implement Enhancements ( Optional)
 
-### Step 3: Implement Enhancements
 Enhance the web app. For example:
 
 Improve the user interface
+
 Add password generation functionality
+
 Implement password history checking
 
 ### Step 4: Deploy to the Cloud
 
 Choose either GCP or AWS for deployment.
 
-## Submission/Showcase 📥
+### To submit your project:
 
 Create a pull request to this repository.
 Add your name, GitHub repo URL, and deployed app URL to the submissions.md file.
 Provide a summary of your enhancements and any additional features in your pull request.
 
-Acknowledgements 👏
+{% include submissions.md %}
+
+## Acknowledgements 👏
 Thank you for participating! We look forward to seeing your innovative enhancements and deployments of the Secure-Pass-Sentinel project.
-
-## Contributors
-
-<!-- contributors -->
-<!-- contributors -->
